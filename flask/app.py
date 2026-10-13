@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 app.json.ensure_ascii = False
 
-VERSION = "v1"
+VERSION = "v2"
 
 
 @app.get("/")
